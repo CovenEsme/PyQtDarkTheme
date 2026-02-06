@@ -49,7 +49,7 @@ jobs:
           poetry run python ./tools/capture.py
           --name ${{runner.os}}-py${{matrix.py}}-${{matrix.qt}}
 
-      - uses: actions/upload-artifact@v3
+      - uses: actions/upload-artifact@v6
         with:
           path: ./*.png
 
