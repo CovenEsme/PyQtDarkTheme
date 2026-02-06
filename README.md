@@ -1,6 +1,8 @@
 # PyQtDarkTheme
 
-**⚠️This project appears to have become abandonware. The v2.2.0 release on this fork merges the python 3.12 PR from the source repo. ⚠️**
+**⚠️ This project appears to have become abandonware. The v2.2.0 release on this fork merges the python 3.12 PR from the source repo. ⚠️**
+
+**⚠️ The v2.3.0 release on this fork attempts to add support for python 3.13 and 3.14. ⚠️**
 
 PyQtDarkTheme applies a flat dark theme to QtWidgets application. There's a light theme too. Color balanced from the dark theme for easy viewing in daylight.
 
