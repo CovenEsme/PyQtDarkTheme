@@ -25,7 +25,7 @@ jobs:
       # This change force run the virtual env pre-commit.
       - name: Set Poetry virtual env path to PATH
         run: echo ${{ github.workspace }}/.venv/bin >> $GITHUB_PATH
-      - uses: pre-commit/action@v3.0.0
+      - uses: pre-commit/action@v3.0.1
       - uses: pre-commit-ci/lite-action@v1.1.0
         if: always()
 
